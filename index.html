@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APWS Dashboard</title>
+  <link rel="stylesheet" href="vendor/uPlot.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header><h1>Dashboard</h1><span id="status">connecting…</span></header>
+    <section class="cards">
+      <div class="card"><label>Soil moisture</label><strong id="moisture">–</strong></div>
+      <div class="card"><label>Last watered</label><strong id="last-water">–</strong></div>
+    </section>
+    <section id="chart"></section>
+  </main>
+  <script src="vendor/uPlot.iife.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
